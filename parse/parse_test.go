@@ -1,4 +1,4 @@
-package flaeg
+package parse
 
 import (
 	"reflect"
