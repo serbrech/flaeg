@@ -168,7 +168,7 @@ func (d *Duration) String() string { return (*time.Duration)(d).String() }
 
 // SetValue sets the duration from the given Duration-asserted value.
 func (d *Duration) SetValue(val interface{}) {
-	*d = Duration(val.(time.Duration))
+	*d = Duration(val.(Duration))
 }
 
 // UnmarshalText deserializes the given text into a duration value.
