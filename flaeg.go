@@ -14,8 +14,7 @@ import (
 	"text/template"
 	"time"
 
-	parse "github.com/containous/flaeg/parse"
-
+	"github.com/containous/flaeg/parse"
 	flag "github.com/ogier/pflag"
 )
 

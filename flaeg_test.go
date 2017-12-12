@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	parse "github.com/containous/flaeg/parse"
+	"github.com/containous/flaeg/parse"
 )
 
 //ConfigurationWithRepeatedStruct is struct which contains repeated struct
